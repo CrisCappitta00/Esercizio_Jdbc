@@ -27,6 +27,8 @@ public class MainAuto {
 			AutomobileServices services = new AutomobileServices(autodao, con);
 
 			while(true) {
+				
+				
 				System.out.println("\n=== MENU ===");
 				System.out.println("1) Inserisci automobile");
 				System.out.println("2) Cancella per marca (prefisso)");
